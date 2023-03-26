@@ -368,7 +368,7 @@ function goBack() {
 document.querySelector(`.logoutButton`).addEventListener('click', () => {
   signOut(auth)
     .then(() => {
-      window.location.href = "/Landing Page + Login/index.html";
+      window.location.href = "./Landing Page + Login/index.html";
     })
     .catch((error) => {
       console.log(error);
